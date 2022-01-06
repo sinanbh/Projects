@@ -1,0 +1,102 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 45rem;
+    margin-bottom: 3rem;
+}
+.tasks
+{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+#lists
+{
+    font-size: 3rem;
+    color: grey;
+    font-weight:lighter;
+}
+.addlist
+{
+    font-weight:lighter;
+    font-size: 1.8rem;
+    color: grey;
+    margin-left: 5px;
+}
+.material-icons.add_icon
+{
+    color: #e72e0e;
+    font-size: 3rem;
+    /* margin-top: 2rem; */
+}
+.addflex
+{   
+    display: flex;
+    align-items: center;
+}
+.box-container
+{
+    display: flex;
+    justify-content: space-between;
+    width: 45rem;
+}
+.box
+{
+    border: 2px solid tomato;
+    width: 13vw;
+    height: 40vh;
+    border-radius: .5rem;
+    box-shadow: 10px 10px 10px #e2d1d1;
+    /* box-sizing: border-box; */
+}
+.paris
+{
+    margin-top: 15%;
+    color: tomato;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    font-weight: lighter;
+}
+.link
+{
+    text-decoration: none;
+    color: tomato;
+    font-size: 1.6rem;
+}
+.completed
+{
+    text-decoration: line-through;
+    color: #e72e0e;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 20%;
+}
+label
+{
+    font-size: 1.3rem;
+}
+input
+{
+    transform: scale(1.5);
+    margin-top: 10%;
+    margin-left: 11px;
+}
+hr
+{
+    margin-left: 14%;
+    border: none;
+    border-bottom: 1px solid;
+}
+.wrapper
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 20vh;
+}
