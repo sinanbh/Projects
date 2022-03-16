@@ -1,0 +1,217 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active {
+    display: block;
+}
+
+.inactive {
+    display: none;
+}
+
+
+
+header
+{
+    width: 70vw;
+    margin: 3.5rem auto;
+
+}
+header.disable {
+    filter: blur(6px);
+    margin: 20px auto;
+    width: 75vw;
+}
+.title
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.task-list
+{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.add-text
+{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-title
+{
+    width: 13rem;
+    display: flex;
+    justify-content: space-around;
+}
+.add-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.material-icons.md-48.icon
+{
+    font-size: 2.5rem;
+    color: #0059ffee;
+}
+.empty-comment
+{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-weight: 200;
+}
+
+
+.card-container
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards 
+{
+    width: 14rem;
+    min-height: 20rem;
+    border: 1px solid #0059ffee;
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 10px #ebdede;
+    margin: 2rem;
+    position: relative;
+}
+
+
+
+
+
+.items 
+{
+    min-height: 200px;
+}
+.innerDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intext {
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(66, 56, 56);;
+}
+
+.mark {
+    border: none;
+    width: 70px;
+    min-height: 20px;
+    font-size: 11px;
+    margin: 10px 5px;
+    background-color: #0059ffee;
+    border-radius: 20px 20px;
+    cursor: pointer;
+}
+
+.cardTitle
+{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cardTitle.disable 
+{
+    pointer-events: none;
+}
+
+.del-icon, .add-icon 
+{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.del-icon 
+{
+    position: absolute;
+    top: 16.5rem;
+    left: 8rem;
+    color: #ff0000;
+}
+.add-icon 
+{
+    position: absolute;
+    top: 16.5rem;
+    left: 11rem;
+    color: #0059ffee;
+}
+.material-icons.md-36 
+{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+.add-list, .add-item 
+{
+    font-size: 2rem;
+    width: 20rem;
+    height: 11rem;
+    position: fixed;
+    top: 12rem;
+    padding: 15px;
+    border: 2px solid #0059ffee;
+    border-radius: 1rem;
+    background-color: #7ef0ff;
+    text-align: center;
+    box-shadow: 10px 10px 10px lightgray;
+    display: none;
+}
+
+.add-list.active, .add-item.active 
+{
+    display: block;
+}
+
+.popup-text 
+{
+    font-size: 2rem;
+    margin: 10px auto;
+}
+.list-input, .item-input 
+{
+    border: 1px solid #0059ffee;
+    box-shadow: 2px 2px 2px lightgray;
+    border-radius: 3px;
+    transform: scale(1.5);
+    margin-top: 2rem;
+}
+.add-btn, .close-btn 
+{
+    color: white;
+    background-color: #0059ffee;
+    border: none;
+    border-radius: 1rem;
+    transform: scale(1.1);
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;;
+    cursor: pointer;
+}
+.add-btn {
+    margin-right: .5rem;
+}
+
+.close-btn {
+    margin-left: .5rem;
+}
